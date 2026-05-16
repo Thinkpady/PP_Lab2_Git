@@ -5,7 +5,7 @@ using namespace std;
 
 void show_menu(int mode){
     // 1 - russian, english
-    if (mode == 0){
+    if (mode == 123){
         cout << "[--------Главное меню--------]\n";
         cout << "1 - Посмотреть таблицу по ученикам.\n";
         cout << "2 - Добавить ученика.\n";
