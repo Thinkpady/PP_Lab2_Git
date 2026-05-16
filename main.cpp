@@ -13,7 +13,7 @@ void show_menu(int mode){
         cout << "4 - Сформировать отчет по проведенным урокам.\n";
     }
 
-    else if (mode == 1){
+    else if (mode == 2){
         cout << "[--------Main menu--------]\n";
         cout << "1 - View the table for students.\n";
         cout << "2 - Add a student.\n";
