@@ -1,8 +1,15 @@
 #include <iostream>
+#include <clocale>
 
 using namespace std;
 
+void show_menu(){
+    cout << "[--------Главное меню--------]";
+}
+
 int main(){
-    cout << "Hello world";
+    setlocale(LC_ALL, "ru_RU.UTF-8");
+    show_menu();
     return 0;
 }
+
